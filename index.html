@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <title>JGallery</title>
+
+
+
+  <style>
+  li a:hover{
+    text-shadow:2px 2px rgb(17, 4, 90);
+    transform: scaleY(1.1);
+    transition: all 0.3s;
+  }
+
+  
+
+  </style>
+</head>
+<body >
+  <div style="background-color: #7303db;">
+  <header>
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="p-4 " style="width:150%; position: fixed; left: 63%; top: -2%; z-index: 200; background-color:transparent;" >
+        <ul class="nav ms- " style="display:flex; flex-direction: column; align-items: center; background-color:rgba(98, 98, 99, 0.5); width: 20%; transform: rotate(90deg);">
+          <li class="nav-item " >
+            <a 
+            class="nav-link text-light ms-4 fw-bold" 
+            href="collections.html">
+              COLLECTIONS
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a 
+            class="nav-link text-light ms-4 fw-bold" 
+            href="#exhibit">
+              EXHIBIT
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a 
+            class="nav-link text-light ms-4 fw-bold" 
+            href="#events">
+              EVENTS
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a 
+            class="nav-link text-light ms-4 fw-bold" 
+            href="#about">
+              ABOUT
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a 
+            class="nav-link text-light ms-4 fw-bold" 
+            href="join-us.html">
+              JOIN US
+            </a>
+          </li>
+        </ul>
+        <div   >
+          <img style=" width: 5.5rem; " src="img/logo.png" alt="">
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-dark" style="width:100%; z-index: 200; position: fixed; align-items: flex-end;background-color:#7303db;">
+      <div class="container-fluid"style="position: relative; left:85%;"  >
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon fs-4"style="display: flex; align-items: flex-end;"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="top"  style=" background-color:#7303db;">
+      <div   >
+      </div>
+      <div class="conatainer text-light "  style="width: 88%; background-color:cadetblue; margin: 0 auto;">
+        <div class="card" style="width:100%;">
+          <img src="img/frontpage.jpg" alt="street art" class="img-fluid  ">
+          <div class="card-img-overlay text-start " style="width: 65%; height:50%; position: absolute; top: 50%; color: cornsilk; text-shadow: 3px 3px 5px black;">
+            <h1 class=" text-wrap fw-sm-bold display-4 card-title" >Discover Arts of Divine Perfection </h1>
+            <p class="fs-5 text-light card-subtitle ">We're on the Beacon House, Queens Road, Bristol, BS8 1QU </p>
+            <h1 class=" display-2 text-center " style="margin-left: 41%; position: fixed; z-index: 2;"><i class="bi bi-chevron-compact-down"></i></h1>
+          </div>
+        </div>
+        <div>
+          <div  id='exhibit' class="container ">
+            <div class=" text-center">
+              <h2 class="fs-4   " style="transform: rotate(90deg); position: relative;  left: -55%; top:8rem; direction: rtl;">CURRENT EXHIBITS  </h2>
+            </div>
+          </div>
+
+          <div  id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" style="width: 100%;  margin: -5px auto;">
+            <div  class="carousel-inner" >
+              <div class="carousel-item active">
+                <img src="img/alice.jpg" class="d-block w-100 " alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slide2.jpg" class="d-block w-100 " alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slide1.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class=" bg-light row align-items-center justify-content-center card-group text-light" style="width:100%; margin: 0 auto;">
+            <div class="card" >
+              <img src="img/exhibit1.jpg" class="card-img h-75"  alt="">
+            </div>
+            <div class="card" >
+              <img src="img/exhibit2.jpg" class="card-img"  alt="">
+            </div>
+            <div class="card " >
+              <img src="img/exhibit4.jpg" class="card-img"  alt="">
+            </div>
+          </div>
+        </div>
+        <div class="container ">
+          <div class=" text-center">
+            <h2 class="fs-4   " style="transform: rotate(90deg); position: relative;  left: -55%; top:9rem; direction: rtl;">RENT  A  WORK SPACE  </h2>
+          </div>
+        </div>
+        <div class="container card-group text-dark" style="width: 100%;">
+          <div class="card" style="width: 28rem;">
+            <img src="img/workspace1.jpg" class="card-img-top" alt="...">
+            <div class="card-body" style="background-color:beige">
+              <h5 class="card-title">Co-Working Space | JGallery Furnished Offices</h5>
+              <p class="card-text">A creative and professional space for professionals, freelancers, and startups. Don’t wait, take this important step and book a visit now </p>
+              <a href="#about" class="btn btn-primary">More info</a>
+            </div>
+          </div>
+          <div class="card" style="width: 28rem;">
+            <img src="img/workspace2.jpg" class="card-img-top" alt="...">
+            <div class="card-body " style="background-color: beige">
+              <h5 class="card-title">Best Office Private Space in Bristol</h5>
+              <p class="card-text">We are providing the best office spaces for business startups and professionals. We have accommodations for business with 2 employees to 20 employees. Reach out to us before your competitors do!</p>
+              <a href="#about" class="btn btn-primary">More info</a>
+            </div>
+          </div>
+        </div>
+        <div id="events" class="container ">
+          <div class=" text-center">
+            <h2 class="fs-4" style="transform: rotate(90deg); position: relative;  left: -55%; top:10rem; ">UPCOMING TALKS</h2>
+          </div>
+        </div>
+        </div>
+        <div  class="container text-light my-5" >
+          <div class="row">
+            <div class=" col-sm-4 ">
+              <img src="img/friday_img.jpg" class="card-img rounded-circle px-5"  alt="">
+            </div>
+            <div class="col-sm-6 gx-5">
+              <h3 class="card-title text-info">First Friday Night</h3>
+              <p class="card-text text-light fs-5">The artistry behind this painting speaks for itself. Besides being among a collection of Vladimir Tretchikoff paintings that earned him a South African nationality, Chinese Girl features in the music video Dead Leaves, David Bowie’s The Stars Are Out Tonight music video‚ in a Don Paterson poem God’s Gift To Women‚ The Dirty Ground, and in the film Frenzy. join us this friday for a short talk about this fascinating masterpiece of art. </p>
+            </div>
+          </div>
+        </div>
+        <div id="events" class="container ">
+          <div class=" text-center text-light">
+            <h2 class="fs-4" style="transform: rotate(90deg); position: relative;  left: -55%; top:12rem; ">ARTISTE OF THE MONTH  </h2>
+          </div>
+        </div>
+        <div class="container text-info my-5" >
+          <div class="row">
+            <div class=" col-sm-8 gx-5 ">
+              <img src="img/speaker.jpg" class="card-img"  alt="">
+            </div>
+            <div class="col-sm-4">
+              <h3 class="card-title text-info">Lara Megilar Nila'ye</h3>
+              <p class="card-text text-light fs-5 ">Lara Megilar was born in Ra’anana, Israel. From an early age she demonstrated an innate artistic talent and continued to bring her creative passion to fruition. In 1999 she moved to New York where she pursued an art education at the School of Visual Arts and The Art Students League. In 2019, she moved to Miami, Florida where she currently resides.
+
+                Lara expresses  joie de vivre in her stylized inspirational portraits and nature scenes. She communicates the healing power of art and lifts our spirits.
+                
+                Her art has been selected for exhibitions presented by the National Association of Women Artists, a prestigious New York-based organization. They have been held at the Coral Springs Museum of Art, in Florida, and Sylvia Wald and Po Kim Art Gallery in New York City, NY. She has also shown her artwork at Armory Annex Gallery, Lake Worth, Florida, and Haven Art Studio, Port Washington, NY, among other venues.</p>
+            </div>
+          </div>
+    </div>
+  </main>
+  <footer style="background-color:#7303db; ;">
+    <div id="about" class=" container bg-dark" style=" width: 88%; margin: 0 auto;">
+      <div id="events" class="container ">
+        <div class=" text-center text-light">
+          <h2 class="fs-4" style="transform: rotate(90deg); position: relative;  left: -57%; top:5rem; ">ABOUT US </h2>
+        </div>
+      </div>
+      <div>
+        <div class="row bd-light mb-3 py-5 fs-5">
+          <div class="col-sm p-5 text-light text-center" style="margin: 2% auto;">
+            <i class="bi-alarm" style="font-size: 3rem; color: whitesmoke;"></i>
+            <hr>
+            <p>Monday - Thursday- Open 9am.  Close 6pm.<br>
+              Fridays- Open 10am. - Close 2am.<br>
+              Saturdays and Sundays- Open 10am. - Close 6pm.
+            </p>
+            <hr>
+          </div>
+          <div class=" col-sm p-5  text-light text-center" style="margin: 2% auto; width: 70%;">
+            <i class="bi bi-calendar4-week" style="font-size: 3rem; color: whitesmoke;"></i>
+            <hr>
+            <p>First friday night is an event where we open our gallery all night on every first friday of the month, this monthly event features short talk and discussions on some of the most priced works of Arts around the world. our artiste of the month projects some of the world most prominent painters around the globe, they visit our gallery on the first weekday of each month to share the story of their journey in painting.
+              <hr>
+            </p>  
+          </div>
+          <div class=" col-sm p-5 text-light text-center  " style="margin: 2% auto; width: 70%;">
+            <i class=" bi bi-door-open" style="font-size: 3rem; color: whitesmoke;"></i>
+            <hr>
+            <p class="">Our gallery is open to people of all ages, and admission is free, though group visit need to be booked in advance, this can simply be done by calling one of the toll free numbers below +112376772237, +12376882247 +12376992257, or send us a mail at info@jgallery.com </p>
+            <hr>
+        </div>
+        <div class=" fs-2 " style="color:#7303db; margin: 2% auto; width: 90%; text-align: center;">
+          
+          <a style="color:#7303db;" href="#about"><i class="bi bi-twitter mx-2"></i> <i class="bi bi-instagram mx-2"></i> <i class="bi bi-facebook mx-2"></i><i class="bi bi-youtube mx-2"></i></a>
+        </div>
+      </div>
+        <div class=" fs-4 text-decoration-none" style=" margin: 0 auto; width: 90%; text-align: end; position: relative; bottom:20rem;">
+          <a class="text-decoration-none text-light" style="color:#7303db;" href="#top"><i class="bi bi-arrow-up-circle " style="font-size: 3rem; color: whitesmoke;"></i><P>TOP</P></a>
+        </div>
+      </div>
+      <div class="text-light">
+        <p>&#169 2021 Jgallery, All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</div>
+  </footer>
+        
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset:200,
+      duration:1000
+    });
+  </script>
+</body>
+</html>
